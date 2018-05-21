@@ -27,7 +27,7 @@
         android:layout_width="0dip"
         android:layout_weight="1"
         android:fontFamily="@font/eraser"
-        android:text="@string/help"
+        android:text="@string/history"
         android:textAlignment="center"
         android:textColor="@android:color/white"
         android:textSize="48sp"
@@ -39,9 +39,10 @@
         android:layout_width="0dip"
         android:layout_weight="1"
         android:fontFamily="@font/eraser"
-        android:text="@string/exit"
+        android:text="@string/help"
         android:textAlignment="center"
         android:textColor="@android:color/white"
         android:textSize="48sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:onClick="goToHelp"/>
 </TableLayout>

@@ -2,5 +2,11 @@
     <string name="app_name">shake-on-it</string>
     <string name="placebet">Place a bet</string>
     <string name="help">Help</string>
-    <string name="exit">Exit</string>
+    <string name="history">History</string>
+    <string name="HELPOUTAMOFO">
+        Shake on it is a fun and easy way to keep track of casual bets with your friends.\n\n\n
+Simply click "Place a bet", enter the participants\' names and the stake (be it money, possessions or forfeits) and then elect a commissioner to hold the stake(s) in escrow.\n\n\n
+Once the bet is settled, the commissioner will select the winner(s) and distribute the winnings.\n\n\n
+www.whenthefunstops.co.uk
+    </string>
 </resources>
