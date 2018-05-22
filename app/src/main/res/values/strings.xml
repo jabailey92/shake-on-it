@@ -6,4 +6,10 @@
     <string name="HELPOUTAMOFO">
         Shake on it is a fun and easy way to keep track of casual bets with your friends.\n\n\nSimply click \"Place a bet\", enter the participants\' names and the stake (be it money, possessions or forfeits) and then elect a commissioner to hold the stake(s) in escrow.\n\n\nOnce the bet is settled, the commissioner will select the winner(s) and distribute the winnings.\n\n\nwww.whenthefunstops.co.uk
     </string>
+    <string name="player1">Player 1</string>
+    <string name="player2">Player 2</string>
+    <string name="commissioner">Commissioner</string>
+    <string name="stakes">Stakes</string>
+    <string name="back">Back</string>
+    <string name="place">Place Bet!</string>
 </resources>
