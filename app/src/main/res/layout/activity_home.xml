@@ -19,7 +19,8 @@
         android:textAlignment="center"
         android:textColor="@android:color/white"
         android:textSize="48sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:onClick="goToBet"/>
 
     <Button
         android:id="@+id/Button02"
