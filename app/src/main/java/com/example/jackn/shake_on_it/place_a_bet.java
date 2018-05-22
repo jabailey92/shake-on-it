@@ -79,7 +79,7 @@ public class place_a_bet extends AppCompatActivity {
                 Log.d(TAG, "file exists");
             }
             FileOutputStream fileOutputStream = new FileOutputStream(file,true);
-            fileOutputStream.write((timestamp + data + System.getProperty("line.separator")).getBytes());
+            fileOutputStream.write((data + System.getProperty("line.separator")).getBytes());
 
             return true;
         }  catch(FileNotFoundException ex) {
