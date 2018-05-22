@@ -23,4 +23,9 @@ public class home extends AppCompatActivity {
         Intent intent = new Intent (home.this, activity_place_a_bet.class);
         startActivity(intent);
     }
+
+    public void goToHistory (View view){
+        Intent intent = new Intent (home.this, history.class);
+        startActivity(intent);
+    }
 }
