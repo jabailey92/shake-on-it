@@ -10,7 +10,7 @@
     <string name="player2">Player 2</string>
     <string name="stakes">Stakes</string>
     <string name="clear">Clear</string>
-    <string name="place">Place Bet!</string>
+    <string name="place">Confirm Bet!</string>
     <string name="settle">Settle Bet!</string>
     <string name="player1wins">Player 1 Wins!</string>
     <string name="player2wins">Player 2 Wins!</string>

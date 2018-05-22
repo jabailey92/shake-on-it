@@ -80,7 +80,7 @@
             android:textColor="@android:color/white"
             android:textSize="30sp"
             android:textStyle="bold"
-            android:onClick="placeBet"/>
+            android:onClick="placeABet"/>
 
     </LinearLayout>
 
