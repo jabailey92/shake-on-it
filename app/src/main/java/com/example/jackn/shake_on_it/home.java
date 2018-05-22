@@ -24,4 +24,8 @@ public class home extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void goToHistory (View view){
+        Intent intent = new Intent (home.this, history.class);
+        startActivity(intent);
+    }
 }

@@ -25,7 +25,8 @@
             android:resource="@array/preloaded_fonts" />
 
         <activity android:name=".help" />
-        <activity android:name=".activity_place_a_bet"></activity>
+        <activity android:name=".activity_place_a_bet" />
+        <activity android:name=".history"></activity>
     </application>
 
 </manifest>
