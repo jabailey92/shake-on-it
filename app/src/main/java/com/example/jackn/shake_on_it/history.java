@@ -13,8 +13,4 @@ public class history extends AppCompatActivity {
         setContentView(R.layout.activity_history);
     }
 
-    public void goToMenuFromHistory (View view){
-        Intent intent = new Intent (history.this, home.class);
-        startActivity(intent);
-    }
 }

@@ -34,18 +34,6 @@
         android:textStyle="bold" />
 
     <TextView
-        android:id="@+id/Commissioner"
-        style="@style/Widget.AppCompat.Button.Borderless.Colored"
-        android:layout_width="0dip"
-        android:layout_weight="1"
-        android:fontFamily="@font/eraser"
-        android:text=""
-        android:textAlignment="center"
-        android:textColor="@android:color/white"
-        android:textSize="40sp"
-        android:textStyle="bold" />
-
-    <TextView
         android:id="@+id/Stakes"
         style="@style/Widget.AppCompat.Button.Borderless.Colored"
         android:layout_width="0dip"
@@ -64,32 +52,30 @@
         android:layout_alignParentBottom="true">
 
         <Button
-            android:id="@+id/Back"
+            android:id="@+id/Player1Wins"
             style="@style/Widget.AppCompat.Button.Borderless.Colored"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:fontFamily="@font/eraser"
-            android:onClick="goToMenuFromHistory"
-            android:text="@string/back"
+            android:text="@string/player1wins"
             android:textAlignment="center"
             android:textColor="@android:color/white"
             android:textSize="30sp"
-            android:textStyle="bold"
-            />
+            android:textStyle="bold"/>
 
         <Button
-            android:id="@+id/SettleBet"
+            android:id="@+id/Player2WinsWins"
             style="@style/Widget.AppCompat.Button.Borderless.Colored"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:fontFamily="@font/eraser"
-            android:text="@string/settle"
+            android:text="@string/player2wins"
             android:textAlignment="center"
             android:textColor="@android:color/white"
             android:textSize="30sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"/>
 
     </LinearLayout>
 
