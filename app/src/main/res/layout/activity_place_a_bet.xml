@@ -81,7 +81,6 @@
             android:textSize="30sp"
             android:textStyle="bold"
             android:onClick="placeABet"/>
-
     </LinearLayout>
 
 </TableLayout>

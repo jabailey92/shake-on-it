@@ -42,7 +42,7 @@ public class place_a_bet extends AppCompatActivity {
         String stakes_str = stakes.getText().toString();
         Log.d(TAG, "P1" + player1);
         if((player1.matches("")) || (player2.matches("")) || (stakes_str.matches(""))){
-            Toast t = Toast.makeText(this, "MORON", Toast.LENGTH_LONG);
+            Toast t = Toast.makeText(this, "Complete the form before placing the bet", Toast.LENGTH_LONG);
             t.show();
         } else {
             saveToFile("{" + player1 + "," + player2 + "," + stakes_str + "}");
@@ -51,6 +51,10 @@ public class place_a_bet extends AppCompatActivity {
         p1.setText("");
         p2.setText("");
         stakes.setText("");
+        Toast t2 = Toast.makeText(this, "Bet placed!", Toast.LENGTH_LONG);
+        t2.show();
+
+        goToMenu(view);
     }
 
     public static boolean saveToFile( String data){
