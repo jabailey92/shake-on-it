@@ -20,7 +20,7 @@ public class home extends AppCompatActivity {
     }
 
     public void goToBet (View view){
-        Intent intent = new Intent (home.this, activity_place_a_bet.class);
+        Intent intent = new Intent (home.this, place_a_bet.class);
         startActivity(intent);
     }
 
