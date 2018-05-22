@@ -1,9 +1,101 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".activity_place_a_bet">
+<TableLayout
+    android:gravity="center"
+    android:id="@+id/widget49"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/background_board"
+    >
 
-</android.support.constraint.ConstraintLayout>
+    <EditText
+        android:id="@+id/Player1"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="0dip"
+        android:layout_weight="1"
+        android:fontFamily="@font/eraser"
+        android:hint="@string/player1"
+        android:textAlignment="center"
+        android:textColorHint="@android:color/white"
+        android:textColor="@android:color/white"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/Player2"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="0dip"
+        android:layout_weight="1"
+        android:fontFamily="@font/eraser"
+        android:hint="@string/player2"
+        android:textAlignment="center"
+        android:textColorHint="@android:color/white"
+        android:textColor="@android:color/white"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/Commissioner"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="0dip"
+        android:layout_weight="1"
+        android:fontFamily="@font/eraser"
+        android:hint="@string/commissioner"
+        android:textAlignment="center"
+        android:textColorHint="@android:color/white"
+        android:textColor="@android:color/white"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/Stakes"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="0dip"
+        android:layout_weight="1"
+        android:fontFamily="@font/eraser"
+        android:hint="@string/stakes"
+        android:textAlignment="center"
+        android:textColorHint="@android:color/white"
+        android:textColor="@android:color/white"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/LinearLayout02"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/Back"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/eraser"
+            android:onClick="goToMenu"
+            android:text="@string/back"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            />
+
+        <Button
+            android:id="@+id/PlaceBet"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/eraser"
+            android:text="@string/place"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:onClick="goToBet"/>
+
+    </LinearLayout>
+
+</TableLayout>
