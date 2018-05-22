@@ -5,7 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-public class activity_place_a_bet extends AppCompatActivity {
+public class place_a_bet extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -13,12 +13,9 @@ public class activity_place_a_bet extends AppCompatActivity {
         setContentView(R.layout.activity_place_a_bet);
     }
 
-    public void goToMenu (View view){
-        Intent intent = new Intent (activity_place_a_bet.this, home.class);
+    public void goToMenuFromPlace (View view){
+        Intent intent = new Intent (place_a_bet.this, home.class);
         startActivity(intent);
     }
 
-    public void writeToFile (View view){
-
-    }
 }

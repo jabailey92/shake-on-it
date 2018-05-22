@@ -64,8 +64,7 @@
     <LinearLayout
         android:id="@+id/LinearLayout02"
         android:layout_height="wrap_content"
-        android:layout_width="fill_parent"
-        android:layout_alignParentBottom="true">
+        android:layout_width="fill_parent">
 
         <Button
             android:id="@+id/Back"
@@ -74,7 +73,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:fontFamily="@font/eraser"
-            android:onClick="goToMenu"
+            android:onClick="goToMenuFromPlace"
             android:text="@string/back"
             android:textAlignment="center"
             android:textColor="@android:color/white"
@@ -94,7 +93,7 @@
             android:textColor="@android:color/white"
             android:textSize="30sp"
             android:textStyle="bold"
-            android:onClick="goToBet"/>
+            android:onClick="placeBet"/>
 
     </LinearLayout>
 
